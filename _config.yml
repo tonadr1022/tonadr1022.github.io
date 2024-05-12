@@ -121,9 +121,10 @@ defaults:
       layout: "page"
 
 # Build settings
-theme: beautiful-jekyll-theme
-# remote_theme: daattali/beautiful-jekyll@6.0.1
+# theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
+  - jekyll-remote-theme
   # - daattali/beautiful-jekyll@6.0.1
   # - jekyll-remote-theme
   - jekyll-feed
