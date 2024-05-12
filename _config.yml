@@ -58,7 +58,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "tonadr1022.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -113,7 +113,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true # add comments to all blog posts
+      comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   - scope:
       path: "" # any file that's not a post will be a "page" layout by default
@@ -121,9 +121,11 @@ defaults:
       layout: "page"
 
 # Build settings
-remote_theme: daattali/beautiful-jekyll@6.0.1
+theme: beautiful-jekyll-theme
+# remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
-  - jekyll-remote-theme
+  # - daattali/beautiful-jekyll@6.0.1
+  # - jekyll-remote-theme
   - jekyll-feed
   # - jekyll-paginate
   # - jekyll-sitemap
