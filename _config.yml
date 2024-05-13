@@ -31,6 +31,7 @@ author: Tony Adriansen
 navbar-links:
   About Me: "aboutme"
   Projects: "projects"
+  Blog: "blog"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -67,7 +68,7 @@ title-on-all-pages: true
 excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
+feed_show_excerpt: false
 
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
@@ -116,7 +117,7 @@ defaults:
       comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   - scope:
-      path: "" # any file that's not a post will be a "page" layout by default
+      gath: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
 
@@ -126,7 +127,6 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-remote-theme
   # - daattali/beautiful-jekyll@6.0.1
-  # - jekyll-remote-theme
   - jekyll-feed
   # - jekyll-paginate
   # - jekyll-sitemap
@@ -140,3 +140,10 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+site-css:
+  - "/assets/css/custom-styles.css"
+# If you have common JavaScript files that should be included in every page, list them here
+#site-js:
+#  - "/assets/js/custom-script.js"
