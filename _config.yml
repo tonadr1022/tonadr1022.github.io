@@ -29,12 +29,12 @@ author: Tony Adriansen
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Projects: "projects"
+  # About Me: "aboutme"
+  # Projects: "projects"
   Blog: "blog"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
