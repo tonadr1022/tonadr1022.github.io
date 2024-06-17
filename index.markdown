@@ -2,7 +2,8 @@
 title: Tony Adriansen
 subtitle: CS @ UW-Madison
 ---
-I'm a computer graphics and software enthusiast studying computer science at [UW-Madison](https://cs.wisc.edu){:target="\_blank"}. I'm interning at [Capital One](https://www.capitalone.com/tech/){:target="\_blank"} summer 2024. I'm interested in 3D rendering and high performance computing, though I've spent much time with full-stack web development as well.
+
+I'm a software and computer graphics enthusiast studying computer science at [UW-Madison](https://cs.wisc.edu){:target="\_blank"}. I'm interning at [Capital One](https://www.capitalone.com/tech/){:target="\_blank"} summer 2024. I'm interested in 3D rendering and high performance computing, though I've spent much time with full-stack web development as well.
 
 Below are some of the projects I've worked on. All of my source code can be found on my [Github](https://github.com/tonadr1022){:target="\_blank"}. Also feel free to peruse my [blog](/blog).
 
@@ -74,4 +75,3 @@ A learning experience using the <a href="https://raytracing.github.io">Ray Traci
 <a style="display: flex; justify-content: center;" href="https://github.com/tonadr1022/CPURayTrace">
     <img src="/assets/img/cpu_raytrace_1.png" alt="CPU Raytrace 1" style="width: 50%;">
 </a>
-
