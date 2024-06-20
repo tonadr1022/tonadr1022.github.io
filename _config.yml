@@ -147,3 +147,5 @@ site-css:
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
 #  - "/assets/js/custom-script.js"
+# Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
+gtag: "G-R81029JNGB"
