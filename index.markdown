@@ -50,20 +50,14 @@ Video Demo
     <img src="/assets/img/voxel_1.jpg" alt="CPU Raytrace 1" style="">
 </a>
 
-### [Rubik's Cube Timer](https://github.com/tonadr1022/CubeChron){:target="\_blank"}
+### [CubeChron](https://cube-chron.com){:target="\_blank"}
 
 <p style="margin: 0;">
-A Rubik's cube timer web app that stores solve and solve session data and provides scrambles. Built with Next.js and GraphQL. Available at <a href="https://www.cubechron.com" target="_blank">www.cubechron.com</a>
+A speed-cubing application that allows users to track solves and statistics both offline and online. Frontend built with React.js, TypeScript and IndexedDB for offline storage. Backend wrtten in Go. This ia a rebuild of a previous iteration that used Next.js and GraphQL. <a href="https://github.com/tonadr1022/speed-cube-time" target="_blank">Source Code</a>
 </p>
 
-<p style="margin: 0;" >
-    <a style="margin: 0;" href="https://www.youtube.com/watch?v=oaQl6GGAVCw" target="_blank">
-Video Demo
-    </a>
-</p>
-
-<a style="display: flex; justify-content: center;" href="https://github.com/tonadr1022/CubeChron">
-    <img src="/assets/img/cube_timer_1.jpg" alt="Cube Timer 1" style="">
+<a style="display: flex; justify-content: center;" href="https://cube-chron.com">
+    <img src="/assets/img/cube-chron-small.jpg" alt="CubeChron - Speedcubing timer" style="">
 </a>
 
 ### [CPU Raytracer](https://github.com/tonadr1022/CPURayTrace){:target="\_blank"}
