@@ -3,9 +3,28 @@ title: Tony Adriansen
 subtitle: CS @ UW-Madison
 ---
 
-I'm a software and computer graphics enthusiast studying computer science at [UW-Madison](https://cs.wisc.edu){:target="\_blank"}. I interned at [Capital One](https://www.capitalone.com/tech/){:target="\_blank"} summer 2024. I'm interested in 3D rendering and high performance computing, though I've spent much time with full-stack web development as well.
+I'm a software and computer graphics enthusiast studying computer science at [UW-Madison](https://cs.wisc.edu){:target="\_blank"}. I interned at [Capital One](https://www.capitalone.com/tech/){:target="\_blank"} summer 2024, and I'm incoming at [Amazon](https://amazon.com){:target="\_blank"} summer 2025. I'm broadly interested in 3D rendering, full stack dev, and (eventually) making Minecraft 2.
 
 Below are some of the projects I've worked on. All of my source code can be found on my [Github](https://github.com/tonadr1022){:target="\_blank"}. Also feel free to peruse my [blog](/blog).
+
+### [ShaderShare](https://www.shader-share.com){:target="\_blank"}
+
+<p style="margin: 0;">
+A web app for sharing and discovering <a href="https://en.wikipedia.org/wiki/Shader" target="_blank">shaders</a>, heavily inspired by <a href="https://shadertoy.com" target="_blank">Shadertoy</a>. One day, I was messing around on Shadertoy and became frustrated with the lack of vim keybindings in the editor and inability to use custom textures from the internet, so I built my own. Tech stack: Next.js, WebGL2, Go, Postgres, Cloudflare R2. <a href="https://github.com/tonadr1022/shadershare" target="_blank">Source Code</a>
+</p>
+<p>
+Here's the first shader ever on the site (hover it).
+</p>
+
+<iframe
+  title="Shadershare Player"
+  allowfullscreen
+  allow="clipboard-write; web-share"
+  width="640"
+  height="360"
+  style="border: none"
+  src="https://www.shader-share.com/embed/shader/1e2a67f9-20f1-4182-8cfe-2bafd7acd713"
+></iframe>
 
 ### [TCraft Voxel Engine](https://github.com/tonadr1022/TCraft){:target="\_blank"}
 
