@@ -23,7 +23,7 @@ Here's the first shader ever on the site (hover it).
   width="640"
   height="360"
   style="border: none"
-  src="https://www.shader-share.com/embed/shader/1e2a67f9-20f1-4182-8cfe-2bafd7acd713"
+  src="https://www.shader-share.com/embed/shader/d16b208f-5e47-4855-987a-fed51782c86a"
 ></iframe>
 
 ### [TCraft Voxel Engine](https://github.com/tonadr1022/TCraft){:target="\_blank"}
