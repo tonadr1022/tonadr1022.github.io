@@ -3,9 +3,23 @@ title: Tony Adriansen
 subtitle: CS @ UW-Madison
 ---
 
-I'm a software and computer graphics enthusiast studying computer science at [UW-Madison](https://cs.wisc.edu){:target="\_blank"}. I interned at [Capital One](https://www.capitalone.com/tech/){:target="\_blank"} summer 2024, and I'm incoming at [Amazon](https://amazon.com){:target="\_blank"} summer 2025. I'm broadly interested in 3D rendering, full stack dev, and (eventually) making Minecraft 2.
+{% include social-networks-links.html %}
 
-Below are some of the projects I've worked on. All of my source code can be found on my [Github](https://github.com/tonadr1022){:target="\_blank"}. Also feel free to peruse my [blog](/blog).
+- I'm a software and computer graphics enthusiast studying computer science at [UW-Madison](https://cs.wisc.edu){:target="\_blank"}.
+- Interned at [Capital One](https://www.capitalone.com/tech/){:target="\_blank"} summer 2024
+- Incoming at [Amazon](https://amazon.com){:target="\_blank"} summer 2025.
+- Interested in rendering, full stack dev, and (eventually) making Minecraft 2.
+- See my [blog](/blog), [Github](https://github.com/tonadr1022){:target="\_blank"}, [YouTube demos](https://www.youtube.com/@tonadr1022), and projects below.
+
+### [VkRender2](https://github.com/tonadr1022/vkrender2){:target="\_blank"}
+
+<p style="margin-top: 0;">
+A Vulkan 1.3 renderer written in C++23 (attempt 2). Implemented techniques including a render graph (<a href="/2025-04-21-building-a-vulkan-render-graph/">see blog</a>), bindless rendering, indirect rendering via compute shaders, PBR, Image Based Lighting, cascaded shadow maps, glTF and KTX2 texture loading, and MoltenVk compatibility.
+</p>
+
+<a style="display: flex; justify-content: center;" href="https://github.com/tonadr1022/vkrender2">
+    <img src="/assets/img/bistro.png" alt="Vulkan renderer Bistro render" >
+</a>
 
 ### [ShaderShare](https://www.shader-share.com){:target="\_blank"}
 
@@ -48,7 +62,7 @@ A speed-cubing application that allows users to track solves and statistics both
     <img src="/assets/img/cube-chron-small.jpg" alt="CubeChron - Speedcubing timer" style="">
 </a>
 
-### [OpenGL 4.6 Engine](https://github.com/tonadr1022/opengl_modern){:target="\_blank"}
+### [OpenGL 4.6 Renderer](https://github.com/tonadr1022/opengl_modern){:target="\_blank"}
 
 <p style="margin: 0;">
 A engine using C++ targeting OpenGL 4.6. I've focused on more modern techniques including direct state access, bindless textures, and AZDO (Approaching Zero Driver Overhead) techniques to optimize performance and reduce graphics driver overhead. It is very much a work in progress, but here are a few early pictures illustrating a PBR shader and basic shadow mapping.

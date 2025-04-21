@@ -2,7 +2,7 @@
 layout: post
 title: From Mouse to Keyboard
 subtitle: How Neovim, Tmux, and tiling window managers transformed my workflow
-tags: [random]
+tags: [neovim, productivity]
 ---
 
 Over spring break this past year, my family procrastinated planning a ski trip since my spring break didn't align with my sister's, and it transformed the way I use a computer. Instead of writing code or otherwise enjoying break, I decided to learn [Neovim](https://neovim.io/), and in turn, my new rabbit hole.
